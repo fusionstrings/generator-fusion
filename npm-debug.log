@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   './' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ './' ]
+6 verbose cache add [ './', null ]
+7 verbose cache add name=undefined spec="./" args=["./",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: './',
+8 verbose parsed url   path: './',
+8 verbose parsed url   href: './' }
+9 silly lockFile 0ee6c175- ./
+10 verbose lock ./ C:\Users\dshuk4\AppData\Roaming\npm-cache\0ee6c175-.lock
+11 verbose tar pack [ 'C:\\Users\\dshuk4\\AppData\\Roaming\\npm-cache\\generator-fusion\\0.0.0\\package.tgz',
+11 verbose tar pack   './' ]
+12 verbose tarball C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package.tgz
+13 verbose folder ./
+14 info prepublish generator-fusion@0.0.0
+15 silly lockFile 04cb2bca-tar tar://./
+16 verbose lock tar://./ C:\Users\dshuk4\AppData\Roaming\npm-cache\04cb2bca-tar.lock
+17 silly lockFile 3120a47d-nerator-fusion-0-0-0-package-tgz tar://C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package.tgz
+18 verbose lock tar://C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package.tgz C:\Users\dshuk4\AppData\Roaming\npm-cache\3120a47d-nerator-fusion-0-0-0-package-tgz.lock
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile 04cb2bca-tar tar://./
+21 silly lockFile 3120a47d-nerator-fusion-0-0-0-package-tgz tar://C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package.tgz
+22 silly lockFile 3120a47d-nerator-fusion-0-0-0-package-tgz tar://C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package.tgz
+23 silly lockFile f63ab190-e-generator-fusion-0-0-0-package C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package
+24 verbose lock C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package C:\Users\dshuk4\AppData\Roaming\npm-cache\f63ab190-e-generator-fusion-0-0-0-package.lock
+25 silly lockFile f63ab190-e-generator-fusion-0-0-0-package C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package
+26 silly lockFile f63ab190-e-generator-fusion-0-0-0-package C:\Users\dshuk4\AppData\Roaming\npm-cache\generator-fusion\0.0.0\package
+27 silly lockFile 0ee6c175- ./
+28 silly lockFile 0ee6c175- ./
+29 silly publish { name: 'generator-fusion',
+29 silly publish   version: '0.0.0',
+29 silly publish   description: 'My laudable module',
+29 silly publish   license: 'MIT',
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/fusionstrings/generator-fusion' },
+29 silly publish   author:
+29 silly publish    { name: 'Dilip Kr. Shukla',
+29 silly publish      email: 'contact@fusionstrings.com',
+29 silly publish      url: 'fusionstrings.com' },
+29 silly publish   bin: { 'generator-fusion': 'cli.js' },
+29 silly publish   engines: { node: '>=0.10.0' },
+29 silly publish   scripts: { test: 'mocha' },
+29 silly publish   files: [ 'index.js', 'cli.js' ],
+29 silly publish   keywords: [ 'cli-app', 'cli' ],
+29 silly publish   dependencies: { meow: '^3.3.0' },
+29 silly publish   devDependencies: { mocha: '*' },
+29 silly publish   readme: '# generator-fusion [![Build Status](https://travis-ci.org/fusionstrings/generator-fusion.svg?branch=master)](https://travis-ci.org/fusionstrings/generator-fusion)\n\n> My laudable module\n\n\n## Install\n\n```\n$ npm install --save generator-fusion\n```\n\n\n## Usage\n\n```js\nvar generatorFusion = require(\'generator-fusion\');\n\ngeneratorFusion(\'unicorns\');\n//=> unicorns & rainbows\n```\n\n\n## CLI\n\n```\n$ npm install --global generator-fusion\n```\n```\n$ generator-fusion --help\n\n  Usage\n    generator-fusion [input]\n\n  Example\n    generator-fusion\n    unicorns & rainbows\n\n    generator-fusion ponies\n    ponies & rainbows\n\n  Options\n    --foo  Lorem ipsum. Default: false\n```\n\n\n## API\n\n### generatorFusion(input, [options])\n\n#### input\n\n*Required*  \nType: `string`\n\nLorem ipsum.\n\n#### options\n\n##### foo\n\nType: `boolean`  \nDefault: `false`\n\nLorem ipsum.\n\n\n## License\n\nMIT © [Dilip Kr. Shukla](http://fusionstrings.com)\n',
+29 silly publish   readmeFilename: 'readme.md',
+29 silly publish   bugs: { url: 'https://github.com/fusionstrings/generator-fusion/issues' },
+29 silly publish   homepage: 'https://github.com/fusionstrings/generator-fusion',
+29 silly publish   _id: 'generator-fusion@0.0.0',
+29 silly publish   _shasum: '2c84f5bd47b4d7fa6f1bfdbaa2443ed9936efe1a',
+29 silly publish   _from: './' }
+30 error need auth auth and email required for publishing
+30 error need auth You need to authorize this machine using `npm adduser`
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "./"
+33 error cwd D:\Projects\generator-fusion
+34 error node -v v0.10.36
+35 error npm -v 1.4.28
+36 error code ENEEDAUTH
+37 verbose exit [ 1, true ]
